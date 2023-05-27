@@ -1,0 +1,76 @@
+.ul-bebida{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.main{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.produto-aba-bebida{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:10px;
+    border:1px solid rgb(111, 111, 111);
+    background-color:rgb(255, 255, 255);
+    box-shadow:3px 3px 7px;
+    border-radius:15px;
+    width: 30%;
+    height: 220px;
+    align-items: center;
+    margin-top: 40px;
+}
+.img-aba-bebida{
+    width:60%;
+    height:70%;
+    margin-top:-3%;
+    margin-right:-15px;
+}
+.preco-imagem{
+    display:flex;
+    flex-direction:column;
+    margin-top:10%;
+    margin-right:-18%;
+}
+.preco-da-bebida{
+    color:rgb(79, 74, 74);
+    font-size:18px;
+    margin-left: 50%;
+}
+.fto-aba-Bebida{
+    height:100%;
+    width:100%;
+    border:none;
+    border-radius:15px;
+}
+.info-sec{
+    margin-left:40px;
+    margin-top:0px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+}
+.descricao{
+    margin-top:-12%;
+    margin-right:10%;
+}
+.add-bebida{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    cursor: pointer;
+}
+.buy{
+    font-size: 17px;
+    padding:10px;
+    text-align:center;
+    background-color: orange;
+    margin-left: 10px;
+    border-radius: 15px;
+    color:white;
+    margin-bottom: 10px;
+    margin-left: -5px;
+}

@@ -1,0 +1,14 @@
+footer{
+    background-color: rgb(255, 134, 5);
+}
+.img-footer{
+    margin-left:47%;
+    margin-top:2%;
+}
+.paragraph{
+    text-align: center;
+    font-size:20px;
+    color:rgb(0, 0, 0);
+    opacity: 0.5;
+    padding-bottom:2%;
+}

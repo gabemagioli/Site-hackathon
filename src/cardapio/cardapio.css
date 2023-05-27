@@ -1,0 +1,186 @@
+.cardapio{
+    background:url("https://media.discordapp.net/attachments/1111782198362767362/1111782671266365482/Vector_1.png?width=435&height=585");
+    background-size:cover;
+    margin-top: -0.3%;
+    padding: 20px;
+}
+.header-cardapio{
+    background: url("fundo.png");
+    margin-left:-20px;
+    width:110%;
+    margin-top:-28px;
+    padding:40px;
+    display:flex;
+    flex-direction:row;
+}
+.imagem-logo{
+    width:8%;
+    margin-left:2%;
+}
+.informacoes-locais{
+    display:flex;
+    flex-direction:column;
+    margin-left: 2%;
+}
+.localidade{
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+}
+.endereco{
+    font-family: 'Poppins', sans-serif;
+    font-size:20px;
+    color:white;
+    margin-top:-1%;
+}
+.outras-unidades{
+    background-color:rgb(253, 181, 47);
+    width:15%;
+    text-align:center;
+    margin-left: 20%;
+    height:40px;
+    padding:5px 10px;
+    margin-top:3.5%;
+    color:white;
+    border:none;
+    border-radius:15px;
+    font-size:20px;
+    align-items:baseline;
+    cursor:pointer;
+}
+.outras-unidades:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+    opacity:0.8;
+}
+.sub-div{
+    background-color: white;
+    width:120%;
+    margin-top:0px;
+    margin-right: -20px;
+    margin-left: -20px; 
+    display:flex;
+    flex-direction:row;
+}
+.naFrente{
+    display:flex;
+    flex-direction: row;
+    align-items:baseline;
+    margin-left:40px;
+}
+.naFrente2{
+    display:flex;
+    flex-direction: row;
+    align-items:baseline;
+    margin-left:70px;
+}
+.pedidos-na-frente{
+    margin-left:15px;
+}
+.categoria{
+    background-color: whitesmoke;
+    width:100%;
+    margin-left:-19px;
+    padding:20px;
+}
+.titulo-categoria{
+    font-size:32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold;
+    color:rgb(74, 72, 72);
+    margin-left:35px;
+    margin-top:0px;
+    padding-top:10px;
+}
+.ul-categorias{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.li-categorias{
+    text-decoration: none;
+    color:black;
+    width:100%;
+}
+.nome-categorias{
+    border-left: 2px solid gray;
+    padding:5px 10px;
+    font-size:18px;
+    font-family: 'Poppins', sans-serif;
+}
+.Recomendacoes-diarias{
+    margin:20px;
+    margin-left:35px;
+    font-size:30px;
+}
+.paragrafo-recomendacao{
+    margin-left:35px;
+    font-size:20px;
+}
+.ul-indicacoes{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.indicados{
+    width:31%;
+    margin:10px;
+    height:250px;
+    border:none;
+    background-color: #FF8F28;
+    text-decoration:none;
+    border-radius:17.567px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.texto-dos-indicados{
+    display:flex;
+    flex-direction:column-reverse;
+    margin-left:-55px;
+    width:35%;
+}
+.nome-indicado{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 25.0375px;
+line-height: 38px;
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+.descricao-indicado{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16.0956px;
+line-height: 24px;
+margin-bottom:63px;
+color: #FFFFFF;
+}
+.img-indicado{
+   width:42%;
+   height:80%;
+   border-radius: 17.884px;
+   margin-top:5%;
+   margin-right: -15%;
+}
+.botao-indicado{
+    position: absolute;
+    width: 10%;
+    height: 30.97px;
+    background: #FFFFFF;
+    color:#FF8F28;
+    border-radius: 44.7099px;
+    margin-bottom:10px;
+    border:none;
+    text-align:center;
+    text-decoration:none;
+    cursor:pointer;
+}
